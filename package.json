@@ -2,10 +2,10 @@
   "name": "test-telegram-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.ts",
-    "start": "node index.ts"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,5 @@
   "dependencies": {
     "node-telegram-bot-api": "^0.56.0",
     "nodemon": "^2.0.15"
-  },
-  "devDependencies": {
-    "@types/node": "^17.0.23"
   }
 }
